@@ -1,33 +1,22 @@
 # 🐶🐱 Cats vs Dogs Image Classifier (TensorFlow CNN)
-# My Project Title
-## Overview
-### Features
-#### Installation
-##### Example Code
-###### Notes
 
-📘 Overview
+## 📘 Overview
 This project is a Convolutional Neural Network (CNN) built with TensorFlow and Keras to classify images of cats and dogs.
 It includes:
 
-
 Dataset loading and preprocessing
-
 
 Model training and validation
 
-
 Accuracy and loss visualization
 
-
 Model saving and loading
-
 
 Image prediction on new data
 
 
 
-🧠 Model Architecture
+## Model Architecture
 The CNN architecture used:
 Input: (150, 150, 3)
 → Conv2D(32, 3x3) + ReLU + MaxPooling
@@ -134,3 +123,9 @@ Your Name
 📧 [your.email@example.com]
 💻 [GitHub Profile Link]
 
+# My Project Title
+## Overview
+### Features
+#### Installation
+##### Example Code
+###### Notes
