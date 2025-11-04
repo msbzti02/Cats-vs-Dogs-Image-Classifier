@@ -1,4 +1,10 @@
 ##🐶🐱 Cats vs Dogs Image Classifier (TensorFlow CNN)
+# My Project Title
+## Overview
+### Features
+#### Installation
+##### Example Code
+###### Notes
 
 📘 Overview
 This project is a Convolutional Neural Network (CNN) built with TensorFlow and Keras to classify images of cats and dogs.
