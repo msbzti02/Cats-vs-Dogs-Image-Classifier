@@ -63,21 +63,11 @@ Then input the path of an image when prompted.
 The script will plot:
 
 
-Training & Validation Accuracy
+Training & Validation Accuracy and loss
+
+<img width="483" height="369" alt="image" src="https://github.com/user-attachments/assets/cba597d1-8a52-4b61-9b0d-b35ac208c9b3" />
 
 
-Training & Validation Loss
-
-
-Example:
-MetricDescriptionAccuracyModel’s ability to correctly classify imagesLossBinary cross-entropy loss over epochs
-
-🐾 Example Output
-When predicting an image:
-Enter the path of the image: C:\projects ml\dogs and cats\traindogs\dog.5.jpg
-Prediction: Dog
-
-And the image will be displayed with the predicted label:
 
 
 💾 Model Saving
