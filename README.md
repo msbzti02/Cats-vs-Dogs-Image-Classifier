@@ -70,7 +70,8 @@ Training & Validation Accuracy and loss
 You can reload it later with:
 model = keras.models.load_model("cats_vs_dogs_model.h5")
 
-
+## prediction 
+<img width="470" height="496" alt="image" src="https://github.com/user-attachments/assets/d2757f24-9bcc-4a91-8c00-6593ea0c292d" />
 
 
 
