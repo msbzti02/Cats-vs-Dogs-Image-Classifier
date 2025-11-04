@@ -12,7 +12,7 @@ It includes:
 
   Model Architecture
 The CNN architecture used:
-Input: (150, 150, 3)
+ - → Input: (150, 150, 3)
  - → Conv2D(32, 3x3) + ReLU + MaxPooling
  - → Conv2D(64, 3x3) + ReLU + MaxPooling
  - → Conv2D(128, 3x3) + ReLU + MaxPooling
@@ -46,59 +46,37 @@ Place cat and dog images in their respective folders.
 
 
 Train the model:
-**cats_vs_dogs.ipynb**
-
-The model will train for 10 epochs by default and save as cats_vs_dogs_model.h5.
-
-
-#### Predict a single image:
-After training, run:
-**cats_vs_dogs.ipynb**
+- **cats_vs_dogs.ipynb**
+- The model will train for 10 epochs by default and save as cats_vs_dogs_model.h5.
 
 Then input the path of an image when prompted.
-
 
 
 ## 📊 Training Results
 The script will plot:
 
-
 Training & Validation Accuracy and loss
 
 <img width="483" height="369" alt="image" src="https://github.com/user-attachments/assets/cba597d1-8a52-4b61-9b0d-b35ac208c9b3" />
 
+<img width="471" height="366" alt="image" src="https://github.com/user-attachments/assets/e77e30f5-06cc-445f-8644-dbf10726acd3" />
 
 
 
-💾 Model Saving
-The trained model is saved automatically as:
-cats_vs_dogs_model.h5
+## 💾 Model Saving
+- The trained model is saved automatically as:
+- cats_vs_dogs_model.h5
 
 You can reload it later with:
 model = keras.models.load_model("cats_vs_dogs_model.h5")
 
 
-📈 Future Improvements
-
-
-Add data augmentation for better generalization
-
-
-Integrate with a GUI or web app for real-time predictions
-
-
-Experiment with transfer learning (e.g., VGG16, ResNet50)
 
 
 
-🧑‍💻 Author
-Your Name
-📧 [your.email@example.com]
-💻 [GitHub Profile Link]
 
-# My Project Title
-## Overview
-### Features
-#### Installation
-##### Example Code
-###### Notes
+## 🧑‍💻 Author
+- Mourad sleem ibshene
+- moradbshina@gmail.com
+
+
