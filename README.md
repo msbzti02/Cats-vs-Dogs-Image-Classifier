@@ -4,79 +4,62 @@
 This project is a Convolutional Neural Network (CNN) built with TensorFlow and Keras to classify images of cats and dogs.
 It includes:
 
-Dataset loading and preprocessing
+ - Dataset loading and preprocessing
+ - Model training and validation
+ - Accuracy and loss visualization
+ - Model saving and loading
+ - Image prediction on new data
 
-Model training and validation
-
-Accuracy and loss visualization
-
-Model saving and loading
-
-Image prediction on new data
-
-
-
-## Model Architecture
+  Model Architecture
 The CNN architecture used:
 Input: (150, 150, 3)
-→ Conv2D(32, 3x3) + ReLU + MaxPooling
-→ Conv2D(64, 3x3) + ReLU + MaxPooling
-→ Conv2D(128, 3x3) + ReLU + MaxPooling
-→ Flatten
-→ Dense(512) + ReLU
-→ Dense(1) + Sigmoid
+ - → Conv2D(32, 3x3) + ReLU + MaxPooling
+ - → Conv2D(64, 3x3) + ReLU + MaxPooling
+ - → Conv2D(128, 3x3) + ReLU + MaxPooling
+ - → Flatten
+ - → Dense(512) + ReLU
+ - → Dense(1) + Sigmoid
 
 This binary classifier outputs 1 for Dog and 0 for Cat.
 
-📂 Project Structure
-cats-vs-dogs/
-│
-├── cats_vs_dogs_model.h5          # Saved trained model
-├── main.py                        # Main script (training + testing)
-├── README.md                      # Project documentation
-└── dataset/
-    ├── traincats/
-    │   ├── cat.1.jpg
-    │   ├── cat.2.jpg
-    │   └── ...
-    └── traindogs/
-        ├── dog.1.jpg
-        ├── dog.2.jpg
-        └── ...
+## 📂 Project Structure
+<img width="337" height="451" alt="image" src="https://github.com/user-attachments/assets/307d7b6e-88b2-4e51-93cd-64ce1e9a4d7e" />
 
 
-⚙️ Requirements
+
+
+## ⚙️ Requirements
 Install the following Python packages:
 pip install tensorflow matplotlib numpy
 
 
-🚀 How to Run
+## 🚀 How to Run
 
 
 Prepare dataset:
 Create folders as follows:
-dataset/
-├── traincats/
-└── traindogs/
+dataset
+ - traincats
+ - traindogs
 
 Place cat and dog images in their respective folders.
 
 
 Train the model:
-python main.py
+**cats_vs_dogs.ipynb**
 
 The model will train for 10 epochs by default and save as cats_vs_dogs_model.h5.
 
 
-Predict a single image:
+#### Predict a single image:
 After training, run:
-python main.py
+**cats_vs_dogs.ipynb**
 
 Then input the path of an image when prompted.
 
 
 
-📊 Training Results
+## 📊 Training Results
 The script will plot:
 
 
