@@ -1,4 +1,4 @@
-##🐶🐱 Cats vs Dogs Image Classifier (TensorFlow CNN)
+# 🐶🐱 Cats vs Dogs Image Classifier (TensorFlow CNN)
 # My Project Title
 ## Overview
 ### Features
